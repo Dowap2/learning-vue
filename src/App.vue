@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="h" num="1" v-bind:seen="true" />
+    <HelloWorld msg="h" num="1" v-bind:seen="true" v-bind:list="[1, 2]" />
     <HelloWorld msg="he" num="2" v-bind:seen="false" />
     <HelloWorld msg="hel" num="3" v-bind:seen="false" />
     <HelloWorld msg="hell" num="4" v-bind:seen="false" />
