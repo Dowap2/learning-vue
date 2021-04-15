@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <HelloWorld msg="h" num="1" />
-    <HelloWorld msg="he" num="2" />
-    <HelloWorld msg="hel" num="3" />
-    <HelloWorld msg="hell" num="4" />
-    <HelloWorld msg="hello" num="5" />
+    <HelloWorld msg="h" num="1" v-vind:seen="false" />
+    <HelloWorld msg="he" num="2" v-vind:seen="false" />
+    <HelloWorld msg="hel" num="3" v-vind:seen="false" />
+    <HelloWorld msg="hell" num="4" v-vind:seen="false" />
+    <HelloWorld msg="hello" num="5" v-vind:seen="true" />
   </div>
 </template>
 
