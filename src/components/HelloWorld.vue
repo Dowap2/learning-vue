@@ -4,6 +4,7 @@
     {{ seen }}
     <p v-if="seen">원본 메시지</p>
     <li v-for="(item, i) in list">{{ item }} {{ i }}</li>
+    {{ obj }}
   </div>
 </template>
 
@@ -14,7 +15,8 @@ export default {
     msg: String,
     num: Number,
     seen: Boolean,
-    list: Array
+    list: Array,
+    obj: Object
   }
 };
 </script>
