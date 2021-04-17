@@ -15,6 +15,7 @@
     />
     <HelloWorld msg="hell" num="4" v-bind:seen="false" />
     <HelloWorld msg="hello" num="5" v-bind:seen="true" />
+    {{ message }}
   </div>
 </template>
 
